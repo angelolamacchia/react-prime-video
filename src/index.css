@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+/*impostazioni header*/
+header {
+  height: 60px;
+  background-color: rgb(49, 91, 204);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+header .header_search {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_search div {
+  padding-right: 20px;
+}
+.header_search input {
+  margin-right: 10px;
+}
+
+.bigTitle {
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigTitle img {
+  max-height: 50px;
+  cursor: pointer;
+}
+
+/*impostazioni home*/
+.my_card {
+  margin: 20px;
+}
+
+.no_films {
+  height: calc(100vh - 60px - 60px);
+  width: 100vw;
+  padding: 0;
+  background-image: url('https://store-images.s-microsoft.com/image/apps.16285.14618985536919905.552c0017-6644-49a8-8467-8f7b34ce0428.30ad6b05-16d9-4d5e-a242-43107708a16a');
+  background-size: cover;
+  background-position: center;
+}
+
+.no_search {
+  height: calc(100vh - 60px - 60px);
+  width: 100vw;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*impostazioni footer*/
+footer {
+  height: 60px;
+  background-color: rgb(49, 91, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: large;
+}
